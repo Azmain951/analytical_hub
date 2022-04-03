@@ -1,0 +1,49 @@
+.theme-color {
+    color: dodgerblue;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 50px;
+}
+
+.product-details-container {
+    padding: 0 150px 0 50px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-details h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.product-details p {
+    color: rgb(109, 109, 109);
+    font-size: 18px;
+}
+
+.product-details-container button {
+    border: none;
+    background-color: deepskyblue;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.product-details-container button:hover {
+    background-color: dodgerblue;
+}
+
+.product-container img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0, 0, 0, 0.1;
+}
