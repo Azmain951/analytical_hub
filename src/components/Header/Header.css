@@ -1,0 +1,17 @@
+.navbar {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: 2px solid skyblue;
+    padding: 0 2px 5px 2px;
+}
+
+.navbar a:hover {
+    color: skyblue;
+}
