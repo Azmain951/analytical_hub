@@ -1,0 +1,24 @@
+.review-container {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.customer-details {
+    display: flex;
+    align-items: center;
+}
+
+.customer-details img {
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid lightcyan;
+}
+
+.customer-details h5 {
+    margin-left: 20px;
+}
+
+.review-details p {
+    margin: 5px;
+}

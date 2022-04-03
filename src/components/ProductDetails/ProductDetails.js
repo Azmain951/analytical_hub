@@ -23,12 +23,13 @@ const ProductDetails = () => {
                 </div>
             </div>
             <div className='reviews-container'>
-                <h1>Customer Review</h1>
+                <h1>Customer Review({newReviews.length})</h1>
                 <div className="reviews">
                     {
                         newReviews.map(review => <Review key={review.customerId} review={review}></Review>)
                     }
                 </div>
+                <button className='all-review-btn'>See All Reviews</button>
             </div>
         </div>
     );

@@ -10,8 +10,8 @@ const Review = ({ review }) => {
                 <h5>{customerName}</h5>
             </div>
             <div className='review-details'>
-                <p>{customerRatings}</p>
-                <p>{customerReview}</p>
+                <p>Ratings: {customerRatings}</p>
+                <p>Comment: {customerReview}</p>
             </div>
         </div>
     );
