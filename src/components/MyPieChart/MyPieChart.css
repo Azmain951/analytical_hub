@@ -7,3 +7,9 @@
 .chart h3 {
     color: dodgerblue;
 }
+
+@media screen and (max-width:800px) {
+    .chart {
+        margin-bottom: 50px;
+    }
+}

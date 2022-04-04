@@ -77,3 +77,21 @@
 .all-review-btn:hover {
     background-color: dodgerblue;
 }
+
+@media screen and (max-width:800px) {
+
+    .product-container {
+        margin-top: 50px;
+        padding: 0;
+        display: block;
+    }
+
+    .product-container img {
+        margin-top: 50px;
+    }
+
+    .reviews {
+        display: block;
+        margin-bottom: 20px;
+    }
+}

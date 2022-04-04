@@ -3,3 +3,10 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width:800px) {
+
+    .not-found img {
+        width: 100%;
+    }
+}
