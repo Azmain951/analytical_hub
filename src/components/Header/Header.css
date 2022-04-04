@@ -1,6 +1,8 @@
 .navbar {
     text-align: center;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar a {
@@ -13,5 +15,6 @@
 }
 
 .navbar a:hover {
-    color: skyblue;
+    border-bottom: 2px solid royalblue;
+
 }
