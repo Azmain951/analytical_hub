@@ -20,5 +20,9 @@
 }
 
 .review-details p {
-    margin: 5px;
+    margin: 20px 0;
+}
+
+.rating {
+    color: orange;
 }
