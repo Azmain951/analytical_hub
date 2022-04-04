@@ -1,0 +1,11 @@
+.qna {
+    background-color: rgba(173, 216, 230, 0.774);
+    width: 80%;
+    margin: 2% 8% 0 8%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.qna-header {
+    text-align: center;
+}
