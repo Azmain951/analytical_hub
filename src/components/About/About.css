@@ -1,0 +1,13 @@
+.about {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(68, 68, 68);
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+.about h2 {
+    font-size: 36px;
+}

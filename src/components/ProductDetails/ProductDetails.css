@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 50px;
+
 }
 
 .product-details-container {
@@ -50,7 +51,7 @@
 }
 
 .reviews-container {
-    margin: 100px 80px;
+    margin: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
