@@ -3,10 +3,17 @@ import productImg from '../../images/product-img.jpg'
 import './ProductDetails.css'
 import useReviews from '../../hooks/useReviews'
 import Review from '../Review/Review';
+import { useNavigate } from 'react-router-dom';
 
 const ProductDetails = () => {
     const [reviews, setReviews] = useReviews();
     const newReviews = reviews.splice(0, 3);
+
+    const navigate = useNavigate();
+    const handleSeeAllReviews = () => {
+        navigate('/reviews');
+    }
+
     return (
         <div>
             <div className="product-container">
@@ -29,7 +36,7 @@ const ProductDetails = () => {
                         newReviews.map(review => <Review key={review.customerId} review={review}></Review>)
                     }
                 </div>
-                <button className='all-review-btn'>See All Reviews</button>
+                <button onClick={handleSeeAllReviews} className='all-review-btn'>See All Reviews</button>
             </div>
         </div>
     );
