@@ -11,7 +11,7 @@ const Review = ({ review }) => {
             </div>
             <div className='review-details'>
                 <p>Ratings: {customerRatings}</p>
-                <p>Comment: {customerReview}</p>
+                <p><small>{customerReview}</small></p>
             </div>
         </div>
     );

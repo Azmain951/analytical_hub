@@ -19,7 +19,7 @@ const ProductDetails = () => {
             <div className="product-container">
                 <div className='product-details-container'>
                     <div className="product-details">
-                        <h1>Make the best decision</h1>
+                        <h1>Make the right decision</h1>
                         <h1><span className='theme-color'>Buy MacBook Pro</span></h1>
                         <p>The M1 chip makes MacBook Pro outrageously fast and powerful. Its 8-core CPU rips through complex workflows and heavy workloads, with up to 2.8x faster processing performance than the previous generation2 — all with unbelievable energy efficiency.</p>
                     </div>
